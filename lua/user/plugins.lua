@@ -48,6 +48,14 @@ return packer.startup(function(use)
   -- Colorschemes
   use "folke/tokyonight.nvim"
 
+  -- CMP Plugins
+  use "hrsh7th/nvim-cmp" -- The completion plugin
+  use "hrsh7th/cmp-buffer" -- Buffer completions
+  use "hrsh7th/cmp-path" -- Path completions
+  use "hrsh7th/cmp-cmdline" -- CmdLine completions
+  use "saadparwaiz1/cmp_luasnip" -- Snippet completions
+  use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-nvim-lua"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
