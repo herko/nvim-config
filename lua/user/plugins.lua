@@ -72,6 +72,8 @@ return packer.startup(function(use)
   use "p00f/nvim-ts-rainbow"
   use "windwp/nvim-autopairs"
   use "numToStr/Comment.nvim" -- Easily comment stuff
+  use 'kyazdani42/nvim-web-devicons'
+  use 'kyazdani42/nvim-tree.lua'
 
   use 'JoosepAlviste/nvim-ts-context-commentstring'
 
