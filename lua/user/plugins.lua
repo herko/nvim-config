@@ -68,11 +68,12 @@ return packer.startup(function(use)
   -- Telescope
   use "nvim-telescope/telescope.nvim"
 
-  use {
-    "nvim-treesitter/nvim-treesitter", run = ":TSUpdate"
-  }
+  use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
   use "p00f/nvim-ts-rainbow"
   use "windwp/nvim-autopairs"
+  use "numToStr/Comment.nvim" -- Easily comment stuff
+
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

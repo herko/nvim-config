@@ -7,6 +7,10 @@ configs.setup {
   ensure_installed = "maintained",
   sync_install = false,
   ignore_install = { "" },
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
+  },
   highlight = {
     enable = true,
     disable = { "" },
